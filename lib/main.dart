@@ -6,7 +6,7 @@ class MyApp extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: Text('Basic Flutter'),),
       body: Container(
-        child: Text("Basic Flutter"),
+        child: Text("Basic Flutter", style: TextStyle(fontSize: 18.0),),
       ),
     );
   }
